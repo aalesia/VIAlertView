@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA8C0E50159E055900DAC373 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8C0E4F159E055900DAC373 /* UIKit.framework */; };
+		EA8C0E52159E055900DAC373 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8C0E51159E055900DAC373 /* Foundation.framework */; };
+		EA8C0E54159E055900DAC373 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8C0E53159E055900DAC373 /* CoreGraphics.framework */; };
+		EA8C0E5A159E055900DAC373 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA8C0E58159E055900DAC373 /* InfoPlist.strings */; };
+		EA8C0E5C159E055900DAC373 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8C0E5B159E055900DAC373 /* main.m */; };
+		EA8C0E60159E055900DAC373 /* VIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8C0E5F159E055900DAC373 /* VIAppDelegate.m */; };
+		EA8C0E63159E055900DAC373 /* VIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8C0E62159E055900DAC373 /* VIViewController.m */; };
+		EA8C0E66159E055900DAC373 /* VIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA8C0E64159E055900DAC373 /* VIViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA8C0E4B159E055900DAC373 /* AlertBlocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertBlocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8C0E4F159E055900DAC373 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA8C0E51159E055900DAC373 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA8C0E53159E055900DAC373 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA8C0E57159E055900DAC373 /* AlertBlocks-Info.plist */ = {isa = PBXFileReference; path = "AlertBlocks-Info.plist"; sourceTree = "<group>"; };
+		EA8C0E59159E055900DAC373 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA8C0E5B159E055900DAC373 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA8C0E5D159E055900DAC373 /* AlertBlocks-Prefix.pch */ = {isa = PBXFileReference; path = "AlertBlocks-Prefix.pch"; sourceTree = "<group>"; };
+		EA8C0E5E159E055900DAC373 /* VIAppDelegate.h */ = {isa = PBXFileReference; path = VIAppDelegate.h; sourceTree = "<group>"; };
+		EA8C0E5F159E055900DAC373 /* VIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIAppDelegate.m; sourceTree = "<group>"; };
+		EA8C0E61159E055900DAC373 /* VIViewController.h */ = {isa = PBXFileReference; path = VIViewController.h; sourceTree = "<group>"; };
+		EA8C0E62159E055900DAC373 /* VIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIViewController.m; sourceTree = "<group>"; };
+		EA8C0E65159E055900DAC373 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VIViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA8C0E48159E055900DAC373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8C0E50159E055900DAC373 /* UIKit.framework in Frameworks */,
+				EA8C0E52159E055900DAC373 /* Foundation.framework in Frameworks */,
+				EA8C0E54159E055900DAC373 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA8C0E40159E055800DAC373 = {
+			isa = PBXGroup;
+			children = (
+				EA8C0E55159E055900DAC373 /* AlertBlocks */,
+				EA8C0E4E159E055900DAC373 /* Frameworks */,
+				EA8C0E4C159E055900DAC373 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA8C0E4C159E055900DAC373 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA8C0E4B159E055900DAC373 /* AlertBlocks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA8C0E4E159E055900DAC373 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA8C0E4F159E055900DAC373 /* UIKit.framework */,
+				EA8C0E51159E055900DAC373 /* Foundation.framework */,
+				EA8C0E53159E055900DAC373 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA8C0E55159E055900DAC373 /* AlertBlocks */ = {
+			isa = PBXGroup;
+			children = (
+				EA8C0E5E159E055900DAC373 /* VIAppDelegate.h */,
+				EA8C0E5F159E055900DAC373 /* VIAppDelegate.m */,
+				EA8C0E61159E055900DAC373 /* VIViewController.h */,
+				EA8C0E62159E055900DAC373 /* VIViewController.m */,
+				EA8C0E64159E055900DAC373 /* VIViewController.xib */,
+				EA8C0E56159E055900DAC373 /* Supporting Files */,
+			);
+			path = AlertBlocks;
+			sourceTree = "<group>";
+		};
+		EA8C0E56159E055900DAC373 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA8C0E57159E055900DAC373 /* AlertBlocks-Info.plist */,
+				EA8C0E58159E055900DAC373 /* InfoPlist.strings */,
+				EA8C0E5B159E055900DAC373 /* main.m */,
+				EA8C0E5D159E055900DAC373 /* AlertBlocks-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA8C0E4A159E055900DAC373 /* AlertBlocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA8C0E69159E055900DAC373 /* Build configuration list for PBXNativeTarget "AlertBlocks" */;
+			buildPhases = (
+				EA8C0E47159E055900DAC373 /* Sources */,
+				EA8C0E48159E055900DAC373 /* Frameworks */,
+				EA8C0E49159E055900DAC373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlertBlocks;
+			productName = AlertBlocks;
+			productReference = EA8C0E4B159E055900DAC373 /* AlertBlocks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA8C0E42159E055800DAC373 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VI;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = EA8C0E45159E055800DAC373 /* Build configuration list for PBXProject "AlertBlocks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA8C0E40159E055800DAC373;
+			productRefGroup = EA8C0E4C159E055900DAC373 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA8C0E4A159E055900DAC373 /* AlertBlocks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA8C0E49159E055900DAC373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8C0E5A159E055900DAC373 /* InfoPlist.strings in Resources */,
+				EA8C0E66159E055900DAC373 /* VIViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA8C0E47159E055900DAC373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8C0E5C159E055900DAC373 /* main.m in Sources */,
+				EA8C0E60159E055900DAC373 /* VIAppDelegate.m in Sources */,
+				EA8C0E63159E055900DAC373 /* VIViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA8C0E58159E055900DAC373 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA8C0E59159E055900DAC373 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA8C0E64159E055900DAC373 /* VIViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA8C0E65159E055900DAC373 /* en */,
+			);
+			name = VIViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA8C0E67159E055900DAC373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA8C0E68159E055900DAC373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA8C0E6A159E055900DAC373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlertBlocks/AlertBlocks-Prefix.pch";
+				INFOPLIST_FILE = "AlertBlocks/AlertBlocks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA8C0E6B159E055900DAC373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlertBlocks/AlertBlocks-Prefix.pch";
+				INFOPLIST_FILE = "AlertBlocks/AlertBlocks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA8C0E45159E055800DAC373 /* Build configuration list for PBXProject "AlertBlocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8C0E67159E055900DAC373 /* Debug */,
+				EA8C0E68159E055900DAC373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA8C0E69159E055900DAC373 /* Build configuration list for PBXNativeTarget "AlertBlocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8C0E6A159E055900DAC373 /* Debug */,
+				EA8C0E6B159E055900DAC373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA8C0E42159E055800DAC373 /* Project object */;
+}
