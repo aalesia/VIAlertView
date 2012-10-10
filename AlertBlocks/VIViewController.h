@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface VIViewController : UIViewController
+- (IBAction)pressedAlert:(id)sender;
 
 @end

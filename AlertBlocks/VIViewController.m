@@ -7,6 +7,7 @@
 //
 
 #import "VIViewController.h"
+#import "VIAlertView.h"
 
 @interface VIViewController ()
 
@@ -29,6 +30,18 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
+- (IBAction)pressedAlert:(id)sender 
+{
+    [[[VIAlertView alloc] initWithCompletion:^(VIAlertView *alertView, NSInteger buttonIndex) {
+        NSLog(@"tapped index: %d", buttonIndex);
+    } 
+                                      title:@"Alert" 
+                                    message:@"Test Message"
+                                   delegate:self 
+                          cancelButtonTitle:@"No"
+                          otherButtonTitles:@"Yes", @"Maybe", nil] show];
 }
 
 @end

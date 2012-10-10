@@ -15,6 +15,7 @@
 		EA8C0E60159E055900DAC373 /* VIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8C0E5F159E055900DAC373 /* VIAppDelegate.m */; };
 		EA8C0E63159E055900DAC373 /* VIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8C0E62159E055900DAC373 /* VIViewController.m */; };
 		EA8C0E66159E055900DAC373 /* VIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA8C0E64159E055900DAC373 /* VIViewController.xib */; };
+		EA8C0E6E159E059000DAC373 /* VIAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8C0E6D159E059000DAC373 /* VIAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,17 @@
 		EA8C0E4F159E055900DAC373 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EA8C0E51159E055900DAC373 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EA8C0E53159E055900DAC373 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EA8C0E57159E055900DAC373 /* AlertBlocks-Info.plist */ = {isa = PBXFileReference; path = "AlertBlocks-Info.plist"; sourceTree = "<group>"; };
+		EA8C0E57159E055900DAC373 /* AlertBlocks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlertBlocks-Info.plist"; sourceTree = "<group>"; };
 		EA8C0E59159E055900DAC373 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EA8C0E5B159E055900DAC373 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EA8C0E5D159E055900DAC373 /* AlertBlocks-Prefix.pch */ = {isa = PBXFileReference; path = "AlertBlocks-Prefix.pch"; sourceTree = "<group>"; };
-		EA8C0E5E159E055900DAC373 /* VIAppDelegate.h */ = {isa = PBXFileReference; path = VIAppDelegate.h; sourceTree = "<group>"; };
+		EA8C0E5D159E055900DAC373 /* AlertBlocks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlertBlocks-Prefix.pch"; sourceTree = "<group>"; };
+		EA8C0E5E159E055900DAC373 /* VIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VIAppDelegate.h; sourceTree = "<group>"; };
 		EA8C0E5F159E055900DAC373 /* VIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIAppDelegate.m; sourceTree = "<group>"; };
-		EA8C0E61159E055900DAC373 /* VIViewController.h */ = {isa = PBXFileReference; path = VIViewController.h; sourceTree = "<group>"; };
+		EA8C0E61159E055900DAC373 /* VIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VIViewController.h; sourceTree = "<group>"; };
 		EA8C0E62159E055900DAC373 /* VIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIViewController.m; sourceTree = "<group>"; };
 		EA8C0E65159E055900DAC373 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VIViewController.xib; sourceTree = "<group>"; };
+		EA8C0E6C159E059000DAC373 /* VIAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIAlertView.h; sourceTree = "<group>"; };
+		EA8C0E6D159E059000DAC373 /* VIAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				EA8C0E62159E055900DAC373 /* VIViewController.m */,
 				EA8C0E64159E055900DAC373 /* VIViewController.xib */,
 				EA8C0E56159E055900DAC373 /* Supporting Files */,
+				EA8C0E6C159E059000DAC373 /* VIAlertView.h */,
+				EA8C0E6D159E059000DAC373 /* VIAlertView.m */,
 			);
 			path = AlertBlocks;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 				EA8C0E5C159E055900DAC373 /* main.m in Sources */,
 				EA8C0E60159E055900DAC373 /* VIAppDelegate.m in Sources */,
 				EA8C0E63159E055900DAC373 /* VIViewController.m in Sources */,
+				EA8C0E6E159E059000DAC373 /* VIAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
